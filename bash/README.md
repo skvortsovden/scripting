@@ -6,7 +6,7 @@ The script was created for using as input for monitoring telegraf(as collector) 
 Telegraf Configuration:
 
 [[inputs.exec]]
-  commands = ["sh /path/http_counter.sh"]
+  commands = ["bash /path/http_counter.sh"]
   timeout = "5s"
   data_format = "influx"
 ```
